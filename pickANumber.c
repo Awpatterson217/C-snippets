@@ -28,7 +28,7 @@ int main()
 		scanf( "%d", &the_number );
 		if      (the_number == 10)
 		{
-				printf( "Great Job! That was close... \n" );
+			printf( "Great Job! That was close... \n" );
 		}
 		else
 		{
@@ -37,5 +37,3 @@ int main()
 	}
 	return 0;
 }
-
-
