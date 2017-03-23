@@ -4,14 +4,12 @@
 int main(VOID)
 {
 	char a;
-
 	printf( "What would you like for dinner?\n" );
 	printf( "A) Chicken\n" );
 	printf( "B) Steak\n" );
 	printf( "C) Fish\n" );
 	printf( "D) Pasta\n" );
 	scanf( "%c", &a );
-
 	switch (a)
 	{
 		case 'A':	
@@ -38,8 +36,6 @@ int main(VOID)
 		printf( "That was not a valid choice!\n" );
 		printf( "\n" );
 		break;
-		
 	}
-
 	return 0;
 }
