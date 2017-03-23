@@ -5,7 +5,6 @@ int main()
 	int x;
 	printf( "Enter the value:\n" );
 	scanf( "%d", &x);
-
 	while( x <=10 )
 	{
 		printf( "%d is less than or equal to 10.\n", x );
