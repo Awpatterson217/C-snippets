@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 int i;
-
 int main(void)
 {
 	puts ("Enter a single character:\n");
@@ -12,7 +11,6 @@ int main(void)
     	{
 		putchar(c);
 	}
-	
 	puts ("\n");	
 	puts ("Again:\n");
 	return 0;
