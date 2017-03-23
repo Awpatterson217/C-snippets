@@ -8,6 +8,5 @@ int main(void)
 	for( i = 2; i <= 10; i++) {
 		answer = answer * i;
 	}
-
 	printf( "Answer = %d\n", answer );
 }
